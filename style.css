@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+body {
+}
+.myheader {
+  padding-top: 36px;
+  padding-bottom: 36px;
+  background-color: #5b6064;
+}
+.nav-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  margin-left: 36px;
+  margin-right: 36px;
+}
+.top-logo {
+  width: 80px;
+}
+.items {
+  flex-grow: 0.3;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  list-style-type: none;
+
+  margin-left: 200px;
+}
+.letstalk {
+}
+.part-1img {
+  width: 280px;
+  height: 350px;
+  object-fit: cover;
+}
+.part-1 {
+  margin-top: 46px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.part-1-right-maintext {
+  font-size: 36px;
+}
+.part-1-right-subtext {
+  font-size: 14px;
+  margin-top: 36px;
+  margin-bottom: 36px;
+}
+.part-1-right-email {
+  background-color: white;
+  padding: 5px 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.part-1-right-email-button {
+  padding: 10px 23px;
+  background-color: aquamarine;
+  border: 0;
+  color: rgb(27, 27, 24);
+}
+.part-1-right-email-input {
+  border: none;
+  flex-grow: 1;
+}
+.part-1-right-email-logo {
+  margin-left: 5px;
+  margin-right: 5px;
+}
